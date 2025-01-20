@@ -1,4 +1,8 @@
+pip install utm    
+pip install shapely
 pip install scipy==1.8.0
+pip install z3-solver 
+
 test: Run PathPlanning.py
 
 #打包.py为.exe
