@@ -1,0 +1,554 @@
+2025-01-20 18:22:13,898| mywadl.survey             |    INFO| WADL Survey Planner
+2025-01-20 18:22:13,899| mywadl.lib.fence          |    INFO| Reading coordinate file ZhuonaiLake.csv
+2025-01-20 18:22:13,905| mywadl.lib.fence          |    INFO| extends in meters 4306.971551100782 by 2717.917016902473
+2025-01-20 18:22:14,007| mywadl.lib.maze           |    INFO| generated maze with 678 nodes
+2025-01-20 18:22:14,010| mywadl.solver.metaGraph   |   DEBUG| found a non connected section
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| number of graphs before merge 73
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| gIdx counter at 73
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| merged keys[]
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| merged keys[]
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| sizes 678 + 0 = 678
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| mergeing 72 of size 2
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| merge scores for 72: dict_items([(65, 1), (71, 2)])
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| merging subg 72 into 71
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| updating small graph 71
+2025-01-20 18:22:14,011| mywadl.solver.metaGraph   |   DEBUG| 71: 8=>10
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merged keys[]
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| sizes 678 + 0 = 678
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| mergeing 71 of size 10
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merge scores for 71: dict_items([(64, 3), (70, 2), (65, 1)])
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merging subg 71 into 64
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| new graph 64
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| 64: 12=>22
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 65, 66, 67, 68, 69, 70]
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merged keys[64]
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| sizes 656 + 22 = 678
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| mergeing 70 of size 6
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merge scores for 70: dict_items([(63, 3), (64, 2), (69, 1)])
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merging subg 70 into 63
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| updating small graph 63
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| 63: 12=>18
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 65, 66, 67, 68, 69]
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merged keys[64]
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| sizes 656 + 22 = 678
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| mergeing 69 of size 3
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merge scores for 69: dict_items([(62, 3), (63, 1), (68, 1)])
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merging subg 69 into 62
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| updating small graph 62
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| 62: 12=>15
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 65, 66, 67, 68]
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merged keys[64]
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| sizes 656 + 22 = 678
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| mergeing 68 of size 2
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merge scores for 68: dict_items([(61, 2), (62, 1)])
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| merging subg 68 into 61
+2025-01-20 18:22:14,012| mywadl.solver.metaGraph   |   DEBUG| updating small graph 61
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| 61: 12=>14
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 65, 66, 67]
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merged keys[64]
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| sizes 656 + 22 = 678
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| mergeing 67 of size 2
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merge scores for 67: dict_items([(58, 2), (66, 1)])
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merging subg 67 into 58
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| updating small graph 58
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| 58: 12=>14
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 65, 66]
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merged keys[64]
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| sizes 656 + 22 = 678
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| mergeing 66 of size 4
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merge scores for 66: dict_items([(57, 3), (58, 1)])
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merging subg 66 into 57
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| updating small graph 57
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| 57: 12=>16
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 65]
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merged keys[64]
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| sizes 656 + 22 = 678
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| mergeing 65 of size 7
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merge scores for 65: dict_items([(56, 1), (64, 5)])
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merging subg 65 into 64
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| updating graph 64
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| 64: 22=>29
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merged keys[64]
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| sizes 649 + 29 = 678
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| mergeing 63 of size 18
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merge scores for 63: dict_items([(53, 3), (64, 6), (62, 5)])
+2025-01-20 18:22:14,013| mywadl.solver.metaGraph   |   DEBUG| merging subg 63 into 64
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| updating graph 64
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| 64: 29=>47
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62]
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merged keys[64]
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| sizes 631 + 47 = 678
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| mergeing 62 of size 15
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merge scores for 62: dict_items([(64, 5), (52, 3), (61, 5)])
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merging subg 62 into 61
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| new graph 61
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| 61: 14=>29
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61]
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| sizes 602 + 76 = 678
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| mergeing 60 of size 12
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merge scores for 60: dict_items([(61, 4), (50, 3), (59, 4)])
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merging subg 60 into 61
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| updating graph 61
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| 61: 29=>41
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61]
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| sizes 590 + 88 = 678
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| mergeing 59 of size 12
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merge scores for 59: dict_items([(58, 4), (49, 3), (61, 4)])
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merging subg 59 into 58
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| new graph 58
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| 58: 14=>26
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58]
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| sizes 564 + 114 = 678
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| mergeing 57 of size 16
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merge scores for 57: dict_items([(47, 3), (58, 5)])
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| merging subg 57 into 58
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| updating graph 58
+2025-01-20 18:22:14,014| mywadl.solver.metaGraph   |   DEBUG| 58: 26=>42
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58]
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| sizes 548 + 130 = 678
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| mergeing 56 of size 1
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merge scores for 56: dict_items([(54, 1), (64, 1)])
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merging subg 56 into 54
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| updating small graph 54
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| 54: 12=>13
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58]
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| sizes 548 + 130 = 678
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| mergeing 55 of size 3
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merge scores for 55: dict_items([(46, 2), (54, 2)])
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merging subg 55 into 46
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| updating small graph 46
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| 46: 11=>14
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58]
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| sizes 548 + 130 = 678
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| mergeing 54 of size 13
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merge scores for 54: dict_items([(45, 3), (64, 4), (53, 4), (46, 2)])
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merging subg 54 into 53
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| new graph 53
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| 53: 12=>25
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53]
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| sizes 523 + 155 = 678
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| mergeing 52 of size 12
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merge scores for 52: dict_items([(43, 3), (51, 4), (61, 3), (53, 4)])
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| merging subg 52 into 51
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| new graph 51
+2025-01-20 18:22:14,015| mywadl.solver.metaGraph   |   DEBUG| 51: 12=>24
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51]
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| sizes 499 + 179 = 678
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| mergeing 50 of size 12
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merge scores for 50: dict_items([(61, 3), (41, 3), (49, 4), (51, 4)])
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merging subg 50 into 49
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| new graph 49
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| 49: 12=>24
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49]
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| sizes 475 + 203 = 678
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| mergeing 48 of size 12
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merge scores for 48: dict_items([(47, 4), (58, 3), (49, 4), (39, 3)])
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merging subg 48 into 47
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| new graph 47
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| 47: 12=>24
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47]
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| sizes 451 + 227 = 678
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| mergeing 46 of size 14
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merge scores for 46: dict_items([(37, 3), (53, 2), (45, 4)])
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merging subg 46 into 45
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| new graph 45
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| 45: 12=>26
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45]
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| sizes 425 + 253 = 678
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| mergeing 44 of size 12
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merge scores for 44: dict_items([(53, 3), (45, 4), (35, 3), (43, 4)])
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| merging subg 44 into 45
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| updating graph 45
+2025-01-20 18:22:14,016| mywadl.solver.metaGraph   |   DEBUG| 45: 26=>38
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45]
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| sizes 413 + 265 = 678
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| mergeing 43 of size 12
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merge scores for 43: dict_items([(34, 3), (42, 4), (51, 3), (45, 4)])
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merging subg 43 into 42
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| new graph 42
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| 42: 12=>24
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41]
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42]
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| sizes 389 + 289 = 678
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| mergeing 41 of size 12
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merge scores for 41: dict_items([(49, 3), (32, 3), (40, 4), (42, 4)])
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merging subg 41 into 40
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| new graph 40
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| 40: 12=>24
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40]
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| sizes 365 + 313 = 678
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| mergeing 39 of size 12
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merge scores for 39: dict_items([(30, 3), (38, 4), (47, 3), (40, 4)])
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merging subg 39 into 38
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| new graph 38
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| 38: 10=>22
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38]
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| sizes 343 + 335 = 678
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| mergeing 37 of size 4
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merge scores for 37: dict_items([(36, 2), (45, 3)])
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| merging subg 37 into 45
+2025-01-20 18:22:14,017| mywadl.solver.metaGraph   |   DEBUG| updating graph 45
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| 45: 38=>42
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38]
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| sizes 339 + 339 = 678
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| mergeing 36 of size 9
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merge scores for 36: dict_items([(45, 5), (35, 4)])
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merging subg 36 into 35
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| new graph 35
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| 35: 12=>21
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35]
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| sizes 318 + 360 = 678
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| mergeing 34 of size 12
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merge scores for 34: dict_items([(27, 3), (33, 4), (42, 3), (35, 4)])
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merging subg 34 into 33
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| new graph 33
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| 33: 12=>24
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33]
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| sizes 294 + 384 = 678
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| mergeing 32 of size 12
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merge scores for 32: dict_items([(31, 4), (40, 3), (25, 3), (33, 4)])
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merging subg 32 into 31
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| new graph 31
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| 31: 12=>24
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31]
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| sizes 270 + 408 = 678
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| mergeing 30 of size 12
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merge scores for 30: dict_items([(29, 4), (23, 3), (31, 4), (38, 3)])
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| merging subg 30 into 29
+2025-01-20 18:22:14,018| mywadl.solver.metaGraph   |   DEBUG| updating small graph 29
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| 29: 4=>16
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31]
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| sizes 270 + 408 = 678
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| mergeing 29 of size 16
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merge scores for 29: dict_items([(22, 1), (23, 3), (31, 4), (38, 4)])
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merging subg 29 into 31
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| updating graph 31
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| 31: 24=>40
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31]
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| sizes 254 + 424 = 678
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| mergeing 28 of size 5
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merge scores for 28: dict_items([(35, 3), (27, 2)])
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merging subg 28 into 35
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| updating graph 35
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| 35: 21=>26
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31]
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| sizes 249 + 429 = 678
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| mergeing 27 of size 11
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merge scores for 27: dict_items([(21, 2), (26, 4), (33, 3), (35, 2)])
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merging subg 27 into 26
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| new graph 26
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| 26: 12=>23
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26]
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| sizes 226 + 452 = 678
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| mergeing 25 of size 12
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merge scores for 25: dict_items([(19, 3), (24, 4), (31, 3), (26, 4)])
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| merging subg 25 into 24
+2025-01-20 18:22:14,019| mywadl.solver.metaGraph   |   DEBUG| new graph 24
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| 24: 12=>24
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24]
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| sizes 202 + 476 = 678
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| mergeing 23 of size 12
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merge scores for 23: dict_items([(22, 4), (31, 3), (17, 3), (24, 4)])
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merging subg 23 into 22
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| updating small graph 22
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| 22: 6=>18
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24]
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| sizes 202 + 476 = 678
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| mergeing 22 of size 18
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merge scores for 22: dict_items([(31, 4), (16, 2), (17, 3), (24, 4)])
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merging subg 22 into 24
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| updating graph 24
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| 24: 24=>42
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24]
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| sizes 184 + 494 = 678
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| mergeing 21 of size 5
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merge scores for 21: dict_items([(20, 4), (26, 2)])
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merging subg 21 into 20
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| updating small graph 20
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| 20: 12=>17
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24]
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| sizes 184 + 494 = 678
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| mergeing 20 of size 17
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merge scores for 20: dict_items([(26, 5), (15, 3), (19, 4)])
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| merging subg 20 into 26
+2025-01-20 18:22:14,020| mywadl.solver.metaGraph   |   DEBUG| updating graph 26
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| 26: 23=>40
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24]
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| sizes 167 + 511 = 678
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| mergeing 19 of size 12
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merge scores for 19: dict_items([(24, 3), (14, 3), (18, 4), (26, 4)])
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merging subg 19 into 18
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| new graph 18
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| 18: 12=>24
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18]
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| sizes 143 + 535 = 678
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| mergeing 17 of size 12
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merge scores for 17: dict_items([(24, 3), (16, 4), (18, 4), (12, 3)])
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merging subg 17 into 16
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| new graph 16
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| 16: 8=>20
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16]
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| sizes 123 + 555 = 678
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| mergeing 15 of size 10
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merge scores for 15: dict_items([(10, 2), (14, 4), (26, 3)])
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merging subg 15 into 14
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| new graph 14
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| 14: 12=>22
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14]
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| sizes 101 + 577 = 678
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| mergeing 13 of size 12
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merge scores for 13: dict_items([(7, 3), (12, 4), (18, 3), (14, 4)])
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| merging subg 13 into 12
+2025-01-20 18:22:14,021| mywadl.solver.metaGraph   |   DEBUG| new graph 12
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| 12: 12=>24
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14, 12]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| sizes 77 + 601 = 678
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| mergeing 11 of size 7
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merge scores for 11: dict_items([(16, 2), (12, 4), (9, 1)])
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merging subg 11 into 12
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| updating graph 12
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| 12: 24=>31
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14, 12]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| sizes 70 + 608 = 678
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| mergeing 10 of size 2
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merge scores for 10: dict_items([(8, 1), (14, 2)])
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merging subg 10 into 14
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| updating graph 14
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| 14: 22=>24
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14, 12]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| sizes 68 + 610 = 678
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| mergeing 9 of size 1
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merge scores for 9: dict_items([(12, 1), (6, 1)])
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merging subg 9 into 12
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| updating graph 12
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| 12: 31=>32
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6, 7, 8]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14, 12]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| sizes 67 + 611 = 678
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| mergeing 8 of size 11
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merge scores for 8: dict_items([(5, 2), (7, 4), (14, 4)])
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merging subg 8 into 7
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| new graph 7
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| 7: 12=>23
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5, 6]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14, 12, 7]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| sizes 44 + 634 = 678
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| mergeing 6 of size 12
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merge scores for 6: dict_items([(12, 4), (3, 3), (7, 4)])
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merging subg 6 into 12
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| updating graph 12
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| 12: 32=>44
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4, 5]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14, 12, 7]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| sizes 32 + 646 = 678
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| mergeing 5 of size 2
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merge scores for 5: dict_items([(4, 1), (7, 2)])
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merging subg 5 into 7
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| updating graph 7
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| 7: 23=>25
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3, 4]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14, 12, 7]
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| sizes 30 + 648 = 678
+2025-01-20 18:22:14,022| mywadl.solver.metaGraph   |   DEBUG| mergeing 4 of size 6
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| merge scores for 4: dict_items([(7, 4), (3, 3)])
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| merging subg 4 into 7
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| updating graph 7
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| 7: 25=>31
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2, 3]
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14, 12, 7]
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| sizes 24 + 654 = 678
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| mergeing 3 of size 12
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| merge scores for 3: dict_items([(1, 3), (12, 3), (2, 2), (7, 3)])
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| merging subg 3 into 1
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| updating small graph 1
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| 1: 6=>18
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0, 1, 2]
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14, 12, 7]
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| sizes 24 + 654 = 678
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| mergeing 2 of size 2
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| merge scores for 2: dict_items([(0, 1), (1, 2)])
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| merging subg 2 into 1
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| new graph 1
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| 1: 18=>20
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| toMerge keys [0]
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| merged keys[64, 61, 58, 53, 51, 49, 47, 45, 42, 40, 38, 35, 33, 31, 26, 24, 18, 16, 14, 12, 7, 1]
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| sizes 4 + 674 = 678
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| mergeing 0 of size 4
+2025-01-20 18:22:14,024| mywadl.solver.metaGraph   |   DEBUG| merge scores for 0: dict_items([(1, 4)])
+2025-01-20 18:22:14,025| mywadl.solver.metaGraph   |   DEBUG| merging subg 0 into 1
+2025-01-20 18:22:14,025| mywadl.solver.metaGraph   |   DEBUG| updating graph 1
+2025-01-20 18:22:14,025| mywadl.solver.metaGraph   |   DEBUG| 1: 20=>24
+2025-01-20 18:22:14,025| mywadl.solver.metaGraph   |   DEBUG| number of graphs after merge 22
+2025-01-20 18:22:14,025| mywadl.solver.metaGraph   |   DEBUG| merging done
+2025-01-20 18:22:14,025| mywadl.solver.metaGraph   |    INFO| found 22 subGraphs with 20 to 47 nodes
+2025-01-20 18:22:14,043| mywadl.solver.solver      |    INFO| building problem 0
+2025-01-20 18:22:14,351| mywadl.solver.SATproblem  |   DEBUG| 602 vars, 70 removed
+2025-01-20 18:22:14,351| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:14,362| mywadl.solver.solver      |    INFO| solved in 0.011506319046020508 sec
+2025-01-20 18:22:14,371| mywadl.solver.solver      |    INFO| building problem 1
+2025-01-20 18:22:14,727| mywadl.solver.SATproblem  |   DEBUG| 931 vars, 154 removed
+2025-01-20 18:22:14,727| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:14,768| mywadl.solver.solver      |    INFO| solved in 0.0405426025390625 sec
+2025-01-20 18:22:14,780| mywadl.solver.solver      |    INFO| building problem 2
+2025-01-20 18:22:15,657| mywadl.solver.SATproblem  |   DEBUG| 1916 vars, 196 removed
+2025-01-20 18:22:15,658| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:16,306| mywadl.solver.solver      |    INFO| solved in 0.6476664543151855 sec
+2025-01-20 18:22:16,330| mywadl.solver.solver      |    INFO| building problem 3
+2025-01-20 18:22:16,511| mywadl.solver.SATproblem  |   DEBUG| 580 vars, 92 removed
+2025-01-20 18:22:16,513| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:16,525| mywadl.solver.solver      |    INFO| solved in 0.012012481689453125 sec
+2025-01-20 18:22:16,533| mywadl.solver.solver      |    INFO| building problem 4
+2025-01-20 18:22:16,647| mywadl.solver.SATproblem  |   DEBUG| 434 vars, 46 removed
+2025-01-20 18:22:16,648| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:16,657| mywadl.solver.solver      |    INFO| solved in 0.00850534439086914 sec
+2025-01-20 18:22:16,662| mywadl.solver.solver      |    INFO| building problem 5
+2025-01-20 18:22:16,847| mywadl.solver.SATproblem  |   DEBUG| 598 vars, 74 removed
+2025-01-20 18:22:16,848| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:16,861| mywadl.solver.solver      |    INFO| solved in 0.012504816055297852 sec
+2025-01-20 18:22:16,869| mywadl.solver.solver      |    INFO| building problem 6
+2025-01-20 18:22:17,643| mywadl.solver.SATproblem  |   DEBUG| 1698 vars, 234 removed
+2025-01-20 18:22:17,644| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:17,814| mywadl.solver.solver      |    INFO| solved in 0.17027068138122559 sec
+2025-01-20 18:22:17,836| mywadl.solver.solver      |    INFO| building problem 7
+2025-01-20 18:22:18,512| mywadl.solver.SATproblem  |   DEBUG| 1636 vars, 124 removed
+2025-01-20 18:22:18,514| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:18,575| mywadl.solver.solver      |    INFO| solved in 0.06110215187072754 sec
+2025-01-20 18:22:18,594| mywadl.solver.solver      |    INFO| building problem 8
+2025-01-20 18:22:19,285| mywadl.solver.SATproblem  |   DEBUG| 1532 vars, 228 removed
+2025-01-20 18:22:19,287| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:19,398| mywadl.solver.solver      |    INFO| solved in 0.1109011173248291 sec
+2025-01-20 18:22:19,418| mywadl.solver.solver      |    INFO| building problem 9
+2025-01-20 18:22:19,628| mywadl.solver.SATproblem  |   DEBUG| 590 vars, 82 removed
+2025-01-20 18:22:19,630| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:19,640| mywadl.solver.solver      |    INFO| solved in 0.010507345199584961 sec
+2025-01-20 18:22:19,648| mywadl.solver.solver      |    INFO| building problem 10
+2025-01-20 18:22:19,876| mywadl.solver.SATproblem  |   DEBUG| 736 vars, 44 removed
+2025-01-20 18:22:19,877| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:19,900| mywadl.solver.solver      |    INFO| solved in 0.023009300231933594 sec
+2025-01-20 18:22:19,909| mywadl.solver.solver      |    INFO| building problem 11
+2025-01-20 18:22:20,062| mywadl.solver.SATproblem  |   DEBUG| 534 vars, 38 removed
+2025-01-20 18:22:20,063| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:20,075| mywadl.solver.solver      |    INFO| solved in 0.012014150619506836 sec
+2025-01-20 18:22:20,081| mywadl.solver.solver      |    INFO| building problem 12
+2025-01-20 18:22:20,269| mywadl.solver.SATproblem  |   DEBUG| 620 vars, 52 removed
+2025-01-20 18:22:20,270| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:20,280| mywadl.solver.solver      |    INFO| solved in 0.010338783264160156 sec
+2025-01-20 18:22:20,289| mywadl.solver.solver      |    INFO| building problem 13
+2025-01-20 18:22:20,477| mywadl.solver.SATproblem  |   DEBUG| 598 vars, 74 removed
+2025-01-20 18:22:20,477| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:20,490| mywadl.solver.solver      |    INFO| solved in 0.012511014938354492 sec
+2025-01-20 18:22:20,497| mywadl.solver.solver      |    INFO| building problem 14
+2025-01-20 18:22:21,294| mywadl.solver.SATproblem  |   DEBUG| 1764 vars, 168 removed
+2025-01-20 18:22:21,295| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:24,019| mywadl.solver.solver      |    INFO| solved in 2.7254831790924072 sec
+2025-01-20 18:22:24,041| mywadl.solver.solver      |    INFO| building problem 15
+2025-01-20 18:22:24,227| mywadl.solver.SATproblem  |   DEBUG| 636 vars, 36 removed
+2025-01-20 18:22:24,228| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:24,247| mywadl.solver.solver      |    INFO| solved in 0.019513607025146484 sec
+2025-01-20 18:22:24,256| mywadl.solver.solver      |    INFO| building problem 16
+2025-01-20 18:22:24,441| mywadl.solver.SATproblem  |   DEBUG| 590 vars, 82 removed
+2025-01-20 18:22:24,441| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:24,456| mywadl.solver.solver      |    INFO| solved in 0.01518106460571289 sec
+2025-01-20 18:22:24,463| mywadl.solver.solver      |    INFO| building problem 17
+2025-01-20 18:22:24,648| mywadl.solver.SATproblem  |   DEBUG| 636 vars, 36 removed
+2025-01-20 18:22:24,649| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:24,659| mywadl.solver.solver      |    INFO| solved in 0.009504318237304688 sec
+2025-01-20 18:22:24,667| mywadl.solver.solver      |    INFO| building problem 18
+2025-01-20 18:22:24,871| mywadl.solver.SATproblem  |   DEBUG| 631 vars, 94 removed
+2025-01-20 18:22:24,871| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:24,882| mywadl.solver.solver      |    INFO| solved in 0.011505126953125 sec
+2025-01-20 18:22:24,890| mywadl.solver.solver      |    INFO| building problem 19
+2025-01-20 18:22:25,675| mywadl.solver.SATproblem  |   DEBUG| 1728 vars, 204 removed
+2025-01-20 18:22:25,676| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:26,462| mywadl.solver.solver      |    INFO| solved in 0.7867233753204346 sec
+2025-01-20 18:22:26,484| mywadl.solver.solver      |    INFO| building problem 20
+2025-01-20 18:22:27,216| mywadl.solver.SATproblem  |   DEBUG| 1699 vars, 146 removed
+2025-01-20 18:22:27,218| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:27,532| mywadl.solver.solver      |    INFO| solved in 0.3141176700592041 sec
+2025-01-20 18:22:27,552| mywadl.solver.solver      |    INFO| building problem 21
+2025-01-20 18:22:28,597| mywadl.solver.SATproblem  |   DEBUG| 2219 vars, 178 removed
+2025-01-20 18:22:28,598| mywadl.solver.SATproblem  |   DEBUG| solver timeout is 60000
+2025-01-20 18:22:29,806| mywadl.solver.solver      |    INFO| solved in 1.2080740928649902 sec
+2025-01-20 18:22:29,832| mywadl.solver.solver      |    INFO| bullding pathGraph
+2025-01-20 18:22:29,835| mywadl.solver.solver      |    INFO| linking routes
+2025-01-20 18:22:29,838| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:29,848| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:29,867| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:29,885| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:29,901| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:29,909| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:29,922| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:29,938| mywadl.lib.route          |   DEBUG| home set to (35.4777197574, 91.86079024)
+2025-01-20 18:22:29,954| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:29,974| mywadl.lib.route          |   DEBUG| home set to (35.4777197574, 91.86079024)
+2025-01-20 18:22:29,995| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:30,012| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:30,021| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,032| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,049| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,069| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,078| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,089| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,107| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,123| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,141| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,150| mywadl.lib.route          |   DEBUG| home set to (35.4942064812, 91.86079024)
+2025-01-20 18:22:30,161| mywadl.lib.route          |   DEBUG| home set to (35.4942064812, 91.86079024)
+2025-01-20 18:22:30,180| mywadl.lib.route          |   DEBUG| home set to (35.4942064812, 91.86079024)
+2025-01-20 18:22:30,188| mywadl.lib.route          |   DEBUG| home set to (35.4942064812, 91.86079024)
+2025-01-20 18:22:30,197| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:30,210| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:30,224| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:30,231| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:30,239| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:30,251| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.840647984)
+2025-01-20 18:22:30,261| mywadl.lib.route          |   DEBUG| home set to (35.4777197574, 91.86079024)
+2025-01-20 18:22:30,276| mywadl.lib.route          |   DEBUG| home set to (35.4777197574, 91.86079024)
+2025-01-20 18:22:30,292| mywadl.lib.route          |   DEBUG| home set to (35.4942064812, 91.86079024)
+2025-01-20 18:22:30,306| mywadl.lib.route          |   DEBUG| home set to (35.4777197574, 91.86079024)
+2025-01-20 18:22:30,322| mywadl.lib.route          |   DEBUG| home set to (35.4777197574, 91.86079024)
+2025-01-20 18:22:30,334| mywadl.lib.route          |   DEBUG| home set to (35.4777197574, 91.86079024)
+2025-01-20 18:22:30,343| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,356| mywadl.lib.route          |   DEBUG| home set to (35.47226497, 91.8265484048)
+2025-01-20 18:22:30,367| mywadl.lib.route          |   DEBUG| home set to (35.4942064812, 91.86079024)
+2025-01-20 18:22:30,372| mywadl.lib.route          |   DEBUG| home set to (35.4942064812, 91.86079024)
+2025-01-20 18:22:30,374| mywadl.solver.solver      |    INFO| solution time: 16.34798 sec
+2025-01-20 18:22:30,377| mywadl.survey             |    INFO| task ZhuonaiLake finished
+2025-01-20 18:22:30,377| mywadl.survey             |    INFO| done planning
