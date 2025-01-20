@@ -1,3 +1,6 @@
+pip install scipy==1.8.0
+test: Run PathPlanning.py
+
 #打包.py为.exe
 cmd
 cd C:\Users\13471\Desktop\OneStartingPoint
